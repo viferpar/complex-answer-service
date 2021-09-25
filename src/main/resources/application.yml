@@ -1,0 +1,12 @@
+spring:
+  application.name: complex-answer
+  cloud.kubernetes.reload.enabled: true
+server.port: 8000
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
